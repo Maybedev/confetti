@@ -50,7 +50,7 @@
     
     // Create gravity behavior. Don't add till view did appear
     self.gravityBehavior = [[UIGravityBehavior alloc] init];
-    self.gravityBehavior.magnitude = 0.5;
+    self.gravityBehavior.magnitude = 1.0;
     
     [self.animator addBehavior:self.gravityBehavior];
 }
